@@ -1,0 +1,119 @@
+#menu{
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    cursor: pointer;
+    display: block;
+    background-color: white;
+}
+
+
+@-webkit-keyframes slideInAnim {
+    0%{opacity: 0;left: -100%;}
+    100% { left: 0; opacity: 1; display: block; }
+}
+
+@keyframes slideInAnim {
+    0%{opacity: 0;left: -100%;}
+    100% { left: 0; opacity: 1; display: block; }
+}
+
+@-webkit-keyframes slideOutAnim {
+    0% { left: 0; opacity: 1; }
+    1000%{opacity: 0; left: 100%; display: none;}
+}
+
+@keyframes slideOutAnim {
+    0% { left: 0; opacity: 1; }
+    1000%{opacity: 0; left: 100%; display: none;}
+}
+
+ul {
+    position: relative;
+    list-style: none;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.center {
+    text-align: center;
+}
+
+.profile {
+    background-color: white;
+    position: relative;
+    height: 40%;
+    width: 100%;
+    /* border-bottom: 1px solid #34A853; */
+}
+
+#profileInfo {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#profilePicture{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    max-width: 50%;
+    max-height: 50%;
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+
+#profileName {
+    color: #34A853;
+    font-weight: bold;
+}
+
+#profileStatus {
+    color: #34A853;
+}
+
+.options {
+    background-color: white;
+    position: relative;
+    height: 60%;
+    width: 100%;
+}
+
+.item {
+    background: white;
+    /* transition: background .35s; */
+    cursor: pointer;
+    color: #34A853;
+}
+
+.item a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    padding: 20px;
+    padding-left: 30px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.active{
+    background: #34A853;
+    color: white;
+    cursor: pointer;
+}
+
+.item:hover, .item a:hover {
+    background: rgba(52,168,83, 0.5);
+    color: white;
+    cursor: pointer;
+}
+
+.active:hover{
+    background: #34A853;
+    color: white;
+    cursor: pointer;
+}
