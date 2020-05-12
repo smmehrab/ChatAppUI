@@ -7,9 +7,11 @@
     top: 0%;
     cursor: pointer;
     display: block;
-    background-color: white;
+    background-color:  #D9F4FF ;
+    padding: 0;
 }
 
+/*#019DD8 #00AFF0 #D9F4FF */
 
 @-webkit-keyframes slideInAnim {
     0%{opacity: 0;left: -100%;}
@@ -43,7 +45,7 @@ ul {
 }
 
 .profile {
-    background-color: white;
+    background-color: #00AFF0 ;
     position: relative;
     height: 40%;
     width: 100%;
@@ -68,26 +70,26 @@ ul {
 }
 
 #profileName {
-    color: #34A853;
+    color: white;
     font-weight: bold;
 }
 
 #profileStatus {
-    color: #34A853;
+    color: white;
 }
 
 .options {
-    background-color: white;
+    background-color: #00AFF0 ;
     position: relative;
     height: 60%;
     width: 100%;
 }
 
 .item {
-    background: white;
+    background: #00AFF0 ;
     /* transition: background .35s; */
     cursor: pointer;
-    color: #34A853;
+    color: white;
 }
 
 .item a {
@@ -101,19 +103,19 @@ ul {
 }
 
 .active{
-    background: #34A853;
+    background: #019DD8;
     color: white;
     cursor: pointer;
 }
 
 .item:hover, .item a:hover {
-    background: rgba(52,168,83, 0.5);
+    background: rgba(1, 157, 216, 0.3);
     color: white;
     cursor: pointer;
 }
 
 .active:hover{
-    background: #34A853;
+    background: #019DD8;
     color: white;
     cursor: pointer;
 }

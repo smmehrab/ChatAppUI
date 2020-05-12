@@ -1,21 +1,25 @@
-# chatAppUI
-A responsive UI skeleton for a chatApp, using html, css &amp; js. Feel free to use it to test your backend dev skills. 
+# Chat App User Interface
 
-## Demo Images
+A simple & responsive UI skeleton for a chat app, using html, css &amp; js.
 
-### Large Screen
-<p float="left">
-<img src="https://github.com/smmehrab/chatAppUI/blob/master/demo1.jpg" width="40%" height="auto">
-<img src="https://github.com/smmehrab/chatAppUI/blob/master/demo2.jpg" width="40%" height="auto">
-</p>
-<p float="left">
-<img src="https://github.com/smmehrab/chatAppUI/blob/master/demo3.jpg" width="40%" height="auto">
-</p>
+**Feel free to use it to test your back-end development skills.**
 
-### Small Screen
-<p float="left">
-<img src="https://github.com/smmehrab/chatAppUI/blob/master/demo4.jpg" width="24%" height="auto">
-<img src="https://github.com/smmehrab/chatAppUI/blob/master/demo5.jpg" width="24%" height="auto">
-<img src="https://github.com/smmehrab/chatAppUI/blob/master/demo6.jpg" width="24%" height="auto">
-<img src="https://github.com/smmehrab/chatAppUI/blob/master/demo7.jpg" width="24%" height="auto">
-</p>
+## Glimpse
+
+### Desktop
+
+<img  src="glimpse/desktop.png"/>
+
+### Mobile
+
+|<img  src="glimpse/mobile1.png"  width="400">|<img  src="glimpse/mobile2.png"  width="400">|
+
+|<img  src="glimpse/mobile3.png"  width="400">|<img  src="glimpse/mobile4.png"  width="400">|
+
+|<img  src="glimpse/mobile5.png"  width="400">|<img  src="glimpse/mobile6.png"  width="400">|
+
+|<img  src="glimpse/mobile7.png"  width="400">|<img  src="glimpse/mobile8.png"  width="400">|
+
+  
+  
+
