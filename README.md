@@ -12,7 +12,7 @@
 	<strong>Feel free to use it to test your back-end development skills.</strong>
    <br />
    <br />
-	   <a href="https://github.com/othneildrew/Best-README-Template"><strong>Give it a try »</strong></a>
+	   <a href="https://smmehrab.github.io/chatAppUI/"><strong>Give it a try »</strong></a>
    <br />
    <br />
  </p>
