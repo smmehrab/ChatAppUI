@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://smmehrab.github.io/chatAppUI/">
     <img src="img/icons/icon128.png" alt="Logo" width="200" height="200">
   </a>
 
