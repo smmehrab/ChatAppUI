@@ -50,6 +50,20 @@ var peopleDivDefaultHtml =
 /************************ MENU *********************************/
 
 document.addEventListener('DOMContentLoaded', function () {
+    var auth = localStorage.getItem("auth");
+    if(auth==="signedIn"){
+        signedIn.classList.remove('hide');
+        signedOut.classList.remove('hide');
+
+        signedOut.classList.add('hide'); 
+    }
+    else{
+        signedIn.classList.remove('hide');
+        signedOut.classList.remove('hide'); 
+
+        signedIn.classList.add('hide');   
+    }
+    
     var currently = localStorage.getItem("currently");
     if (currently === "chats" || !currently) {
         chatsBtn.click();
@@ -59,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
         friendsBtn.click();
     } else if (currently === "people") {
         peopleBtn.click();
-    }
+    } 
 });
 
 backBtn.addEventListener('click', function (e) {
@@ -183,6 +197,7 @@ signUpForm.addEventListener('submit', (e) => {
             signedOut.classList.add('hide');
             signUpForm.reset();
     
+            localStorage.setItem("auth", "signedIn");
             changeUI("signedUp");
 
         }, 3000);
@@ -211,6 +226,7 @@ signInForm.addEventListener('submit', (e) => {
         signedOut.classList.add('hide');
         signInForm.reset();
     
+        localStorage.setItem("auth", "signedIn");
         changeUI("signedIn");
 
     }, 3000);
@@ -241,6 +257,7 @@ signOutBtn.addEventListener('click', (e) => {
         document.getElementById('friendsDiv').innerHTML = "";
         document.getElementById('peopleDiv').innerHTML = peopleDivDefaultHtml;
     
+        localStorage.setItem("auth", "signedOut");
         changeUI("signedOut");
 
     }, 3000);
