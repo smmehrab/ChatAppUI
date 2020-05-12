@@ -50,19 +50,24 @@ var peopleDivDefaultHtml =
 /************************ MENU *********************************/
 
 document.addEventListener('DOMContentLoaded', function () {
-    var auth = localStorage.getItem("auth");
-    if(auth==="signedIn"){
-        signedIn.classList.remove('hide');
-        signedOut.classList.remove('hide');
+    // signedIn.classList.remove('hide');
+    // signedOut.classList.remove('hide'); 
 
-        signedOut.classList.add('hide'); 
-    }
-    else{
-        signedIn.classList.remove('hide');
-        signedOut.classList.remove('hide'); 
+    // signedIn.classList.add('hide');   
 
-        signedIn.classList.add('hide');   
-    }
+    // var auth = localStorage.getItem("auth");
+    // if(auth==="signedIn"){
+    //     signedIn.classList.remove('hide');
+    //     signedOut.classList.remove('hide');
+
+    //     signedOut.classList.add('hide'); 
+    // }
+    // else{
+    //     signedIn.classList.remove('hide');
+    //     signedOut.classList.remove('hide'); 
+
+    //     signedIn.classList.add('hide');   
+    // }
     
     var currently = localStorage.getItem("currently");
     if (currently === "chats" || !currently) {
